@@ -7,7 +7,7 @@ import TextDynamicList from "./components/react-virtual/textDynamicList"
 import InfiniteList from "./components/react-virtual/infiniteList"
 const rootEl = document.getElementById("root");
 render(
-  <TextDynamicList/>,
+  <TextDynamicList/>,//<InfiniteList/> or <ImgDynamicVirtual/> or <TinyVirtual/>
   rootEl
 )
 // const list = [
